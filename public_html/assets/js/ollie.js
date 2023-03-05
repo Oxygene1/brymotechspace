@@ -1,19 +1,4 @@
-/*!
-=========================================================
-* Ollie Landing page
-=========================================================
 
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// smooth scroll
-// smooth scroll
 $(document).ready(function () {
   $(".navbar .nav-link").on("click", function (event) {
     if (this.hash !== "") {
@@ -61,12 +46,11 @@ $("#owl-testmonial").owlCarousel({
   center: true,
   items: 1,
   loop: true,
-  nav: true,
-  dots: false,
+  nav: false,
+  dots: true,
 });
 
 // document.getElementById("myButton").addEventListener("click", function (event) {
-  
 
 // });
 function sendEmail() {
